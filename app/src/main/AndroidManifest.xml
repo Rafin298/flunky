@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.app1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name="util.JournalApi"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Flunky"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.App1"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:label">
+        <activity android:name=".todoList.todoCreate" />
+        <activity
+            android:name=".signUpp"
+            android:theme="@style/Theme.App1.NoActionBar" />
+        <activity android:name=".login" />
+        <activity
+            android:name=".quiz.quiz2"
+            android:theme="@style/Theme.App1.NoActionBar" /> <!-- <activity android:name=".quiz.quiz1" /> -->
+        <activity
+            android:name=".Dashboard"
+            android:theme="@style/Theme.App1.NoActionBar" />
+        <activity
+            android:name=".quiz.quiz1"
+            android:theme="@style/Theme.App1.NoActionBar" />
+        <activity
+            android:name=".news.news2_detail"
+            android:theme="@style/Theme.App1.NoActionBar" />
+        <activity
+            android:name=".MainPage"
+            android:theme="@style/Theme.App1.NoActionBar" />
+        <activity
+            android:name=".todoList.todo3"
+            android:theme="@style/Theme.App1.NoActionBar" />
+        <activity
+            android:name=".signUp"
+            android:theme="@style/Theme.App1.NoActionBar" />
+        <activity
+            android:name=".weather.weather1"
+            android:theme="@style/Theme.App1.NoActionBar" />
+        <activity
+            android:name=".news.news1"
+            android:theme="@style/Theme.App1.NoActionBar" />
+        <activity
+            android:name=".todoList.todo2"
+            android:theme="@style/Theme.App1.NoActionBar" />
+        <activity
+            android:name=".todoList.todo1"
+            android:theme="@style/Theme.App1.NoActionBar" />
+        <activity
+            android:name=".journal.Journal4"
+            android:theme="@style/Theme.App1.NoActionBar" />
+        <activity
+            android:name=".journal.Journal3"
+            android:theme="@style/Theme.App1.NoActionBar" />
+        <activity
+            android:name=".weather.weatherSearch"
+            android:theme="@style/Theme.App1.NoActionBar" />
+        <activity
+            android:name=".loginn"
+            android:theme="@style/Theme.App1.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

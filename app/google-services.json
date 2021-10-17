@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "533280809518",
+    "project_id": "flunk-37d3a",
+    "storage_bucket": "flunk-37d3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533280809518:android:f55861b7bac5772192b5bf",
+        "android_client_info": {
+          "package_name": "com.example.app1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533280809518-qtreisi7p0gi3h0eenqhc1jud75es5h2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQjVvlfygr3IpGV1kZ7_PXibWMRuFXsBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "533280809518-qtreisi7p0gi3h0eenqhc1jud75es5h2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
